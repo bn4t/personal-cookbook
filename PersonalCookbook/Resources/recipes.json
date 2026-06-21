@@ -1,0 +1,475 @@
+[
+  {
+    "id": "spicy-chicken-broccoli-rice-bowl",
+    "name": "Spicy Chicken Broccoli Rice Bowl",
+    "description": "The default comfort-health meal. Real food, not diet food.",
+    "whyCookThis": "Rotate through this when you want something reliable that still tastes alive. Protein, veg, carb, sauce and acid in one bowl — fast enough to make while tired.",
+    "category": "Dinner",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 22,
+    "servings": 2,
+    "difficulty": "easy",
+    "energyLevel": "medium",
+    "batchFriendly": true,
+    "vegetarian": false,
+    "highProtein": true,
+    "tags": ["bowl", "weeknight", "high-protein", "spicy"],
+    "ingredientGroups": [
+      {
+        "name": "Bowl",
+        "ingredients": [
+          { "name": "Rice", "amount": 150, "unit": "g", "note": "basmati or jasmine", "optional": false, "shoppingCategory": "Pantry" },
+          { "name": "Chicken breast or thigh", "amount": 325, "unit": "g", "note": "cut into bite-size pieces", "optional": false, "shoppingCategory": "Protein" },
+          { "name": "Broccoli", "amount": 350, "unit": "g", "note": "cut into florets", "optional": false, "shoppingCategory": "Produce" },
+          { "name": "Garlic", "amount": 2, "unit": "cloves", "note": "minced", "optional": false, "shoppingCategory": "Produce" },
+          { "name": "Ginger", "amount": 1, "unit": "thumb-sized piece", "note": "minced or grated", "optional": false, "shoppingCategory": "Produce" },
+          { "name": "Olive oil", "amount": 2, "unit": "tbsp", "optional": false, "shoppingCategory": "Pantry" },
+          { "name": "Salt", "amount": null, "unit": "to taste", "optional": false, "shoppingCategory": "Spices" },
+          { "name": "Black pepper", "amount": null, "unit": "to taste", "optional": false, "shoppingCategory": "Spices" },
+          { "name": "Sesame seeds", "amount": null, "unit": "to garnish", "optional": true, "shoppingCategory": "Spices" }
+        ]
+      },
+      {
+        "name": "Sauce",
+        "ingredients": [
+          { "name": "Soy sauce or tamari", "amount": 2, "unit": "tbsp", "optional": false, "shoppingCategory": "Pantry" },
+          { "name": "Lime juice", "amount": 1, "unit": "tbsp", "note": "about half a lime", "optional": false, "shoppingCategory": "Produce" },
+          { "name": "Sriracha or chili flakes", "amount": 1, "unit": "tsp", "note": "to taste", "optional": false, "shoppingCategory": "Pantry" },
+          { "name": "Honey", "amount": 1, "unit": "tsp", "optional": true, "shoppingCategory": "Pantry" }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "title": "Cook the rice",
+        "instruction": "Rinse the rice until the water runs clearer. Add to a pot with water per the package and a pinch of salt. Cook covered, then rest 5-10 minutes off the heat.",
+        "durationMinutes": 15,
+        "ingredients": ["Rice", "Salt"],
+        "tips": ["Salt the water — it seasons the rice from the inside."]
+      },
+      {
+        "title": "Mix the sauce",
+        "instruction": "Stir soy sauce, lime juice, chili and optional honey with a splash of water in a small bowl.",
+        "durationMinutes": null,
+        "ingredients": ["Soy sauce or tamari", "Lime juice", "Sriracha or chili flakes", "Honey"],
+        "tips": ["The lime goes in the sauce now, but you'll add more fresh at the end."]
+      },
+      {
+        "title": "Cook the broccoli",
+        "instruction": "Steam for 3-5 minutes or blanch in boiling water for about 2 minutes — bright green with some bite. Drain well.",
+        "durationMinutes": 4,
+        "ingredients": ["Broccoli"],
+        "tips": ["Don't overcook it; you want a little crunch left."]
+      },
+      {
+        "title": "Brown the chicken",
+        "instruction": "Salt the chicken. Heat a pan on medium-high, add olive oil, then the chicken in a single layer. Let it brown before stirring, and cook through.",
+        "durationMinutes": 8,
+        "ingredients": ["Chicken breast or thigh", "Olive oil", "Salt"],
+        "tips": ["Salt before cooking, not after.", "Don't crowd the pan — use a big pan or two batches so it browns instead of steaming."]
+      },
+      {
+        "title": "Add the aromatics",
+        "instruction": "Lower the heat slightly. Add garlic and ginger and stir for 30-60 seconds until fragrant.",
+        "durationMinutes": 1,
+        "ingredients": ["Garlic", "Ginger"],
+        "tips": ["Add garlic late so it doesn't burn and turn bitter."]
+      },
+      {
+        "title": "Combine and serve",
+        "instruction": "Add broccoli and sauce, toss 1-2 minutes. Serve over rice, finish with sesame seeds and a fresh squeeze of lime.",
+        "durationMinutes": 2,
+        "ingredients": ["Broccoli", "Sesame seeds", "Lime juice"],
+        "tips": ["A final squeeze of lime makes the whole bowl taste fresher."]
+      }
+    ],
+    "tasteFixes": [
+      { "problem": "Tastes flat", "fix": "Add salt or a splash more soy sauce." },
+      { "problem": "Tastes heavy", "fix": "Add lime." },
+      { "problem": "Tastes boring", "fix": "Add chili, or a tiny bit of honey." }
+    ],
+    "easyUpgrades": [
+      "Add cashews or peanuts.",
+      "Top with a fried egg.",
+      "Use chicken thigh for juicier, more forgiving meat.",
+      "Add frozen edamame for extra protein."
+    ],
+    "batchNotes": "Good for 2 days. Rice is best cooked fresh, or cooled quickly and handled carefully.",
+    "safetyNotes": [
+      "Cook chicken until safely done — a thermometer is the easiest way.",
+      "Cool rice quickly, refrigerate it, and avoid repeatedly reheating it.",
+      "Eat leftovers within 3-4 days, reheated until hot all the way through."
+    ]
+  },
+  {
+    "id": "super-veggie-lentil-bowl",
+    "name": "Super Veggie Lentil Bowl",
+    "description": "The longevity-nerd bowl, adapted so it doesn't taste like punishment.",
+    "whyCookThis": "Whole, warm, salty, acidic and a little spicy — packed with veg and lentils but genuinely good to eat. Keeps for days.",
+    "category": "Dinner",
+    "prepTimeMinutes": 12,
+    "cookTimeMinutes": 30,
+    "servings": 3,
+    "difficulty": "medium",
+    "energyLevel": "medium",
+    "batchFriendly": true,
+    "vegetarian": true,
+    "highProtein": true,
+    "tags": ["plant-based", "meal-prep", "high-fibre", "longevity"],
+    "ingredientGroups": [
+      {
+        "name": "Base",
+        "ingredients": [
+          { "name": "Green or black lentils", "amount": 120, "unit": "g", "note": "dry", "optional": false, "shoppingCategory": "Pantry" },
+          { "name": "Broccoli", "amount": 250, "unit": "g", "note": "chopped", "optional": false, "shoppingCategory": "Produce" },
+          { "name": "Cauliflower", "amount": 200, "unit": "g", "note": "chopped", "optional": false, "shoppingCategory": "Produce" },
+          { "name": "Mushrooms", "amount": 200, "unit": "g", "note": "sliced or chopped", "optional": false, "shoppingCategory": "Produce" },
+          { "name": "Garlic", "amount": 2, "unit": "cloves", "note": "minced", "optional": false, "shoppingCategory": "Produce" },
+          { "name": "Ginger", "amount": 1, "unit": "thumb-sized piece", "note": "minced", "optional": false, "shoppingCategory": "Produce" },
+          { "name": "Olive oil", "amount": 2, "unit": "tbsp", "optional": false, "shoppingCategory": "Pantry" }
+        ]
+      },
+      {
+        "name": "Spice & finish",
+        "ingredients": [
+          { "name": "Cumin", "amount": 1, "unit": "tsp", "optional": false, "shoppingCategory": "Spices" },
+          { "name": "Smoked paprika", "amount": 1, "unit": "tsp", "optional": false, "shoppingCategory": "Spices" },
+          { "name": "Chili flakes", "amount": 0.5, "unit": "tsp", "optional": false, "shoppingCategory": "Spices" },
+          { "name": "Apple cider vinegar or lime juice", "amount": 1, "unit": "tbsp", "optional": false, "shoppingCategory": "Pantry" },
+          { "name": "Walnuts, pumpkin or hemp seeds", "amount": 1, "unit": "tbsp", "note": "per serving", "optional": false, "shoppingCategory": "Pantry" },
+          { "name": "Salt", "amount": null, "unit": "to taste", "optional": false, "shoppingCategory": "Spices" },
+          { "name": "Black pepper", "amount": null, "unit": "to taste", "optional": false, "shoppingCategory": "Spices" },
+          { "name": "Cooked rice or quinoa", "amount": null, "unit": "to serve", "note": "100-150 g per serving", "optional": true, "shoppingCategory": "Pantry" },
+          { "name": "Greek yogurt", "amount": null, "unit": "to serve", "optional": true, "shoppingCategory": "Dairy" }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "title": "Cook the lentils",
+        "instruction": "Rinse the lentils. Simmer gently in plenty of salted water until tender but not mushy, about 18-25 minutes. Drain.",
+        "durationMinutes": 22,
+        "ingredients": ["Green or black lentils", "Salt"],
+        "tips": ["Salt the water — it seasons the lentils as they cook."]
+      },
+      {
+        "title": "Brown the mushrooms",
+        "instruction": "Put mushrooms in a pan with a splash of water. Cover 2-3 minutes to release moisture, then uncover and cook off the water. Add olive oil and keep cooking until browned.",
+        "durationMinutes": 8,
+        "ingredients": ["Mushrooms", "Olive oil"],
+        "tips": ["The browning is where a lot of the flavour comes from — don't rush it."]
+      },
+      {
+        "title": "Bloom the spices",
+        "instruction": "Add garlic, ginger, cumin, smoked paprika, chili, salt and pepper to the mushrooms. Stir 30-60 seconds until fragrant.",
+        "durationMinutes": 1,
+        "ingredients": ["Garlic", "Ginger", "Cumin", "Smoked paprika", "Chili flakes"],
+        "tips": ["Toasting spices in the oil makes them taste deeper, not dusty."]
+      },
+      {
+        "title": "Cook the vegetables",
+        "instruction": "Steam the broccoli and cauliflower for 4-6 minutes, or add to the pan with a splash of water and cover until tender.",
+        "durationMinutes": 6,
+        "ingredients": ["Broccoli", "Cauliflower"],
+        "tips": []
+      },
+      {
+        "title": "Combine and finish",
+        "instruction": "Mix lentils, mushrooms and veg. Add the vinegar or lime. Serve with olive oil, seeds or walnuts, and rice or quinoa if you want it more filling.",
+        "durationMinutes": null,
+        "ingredients": ["Apple cider vinegar or lime juice", "Walnuts, pumpkin or hemp seeds", "Cooked rice or quinoa"],
+        "tips": ["Don't skip the vinegar or lime — it's what makes it taste alive."]
+      }
+    ],
+    "tasteFixes": [
+      { "problem": "Tastes too healthy", "fix": "Add more olive oil, salt and smoked paprika." },
+      { "problem": "Want it creamier", "fix": "Stir a spoon of Greek yogurt in after serving." },
+      { "problem": "Want it more meal-like", "fix": "Serve over rice or quinoa." }
+    ],
+    "easyUpgrades": [
+      "Add a soft-boiled egg.",
+      "Crumble over feta.",
+      "Add chili crisp.",
+      "Add roasted sweet potato.",
+      "Add chicken for more protein."
+    ],
+    "batchNotes": "Keeps 3-4 days stored properly. Store rice separately if using.",
+    "safetyNotes": [
+      "Cool leftovers quickly in shallow containers.",
+      "Eat within 3-4 days and reheat until hot all the way through."
+    ]
+  },
+  {
+    "id": "mushroom-walnut-tomato-pasta",
+    "name": "Mushroom-Walnut Tomato Pasta",
+    "description": "Healthy pasta that still feels like pasta.",
+    "whyCookThis": "Mushrooms and walnuts make the sauce savoury and filling, so a whole-grain bowl of pasta actually satisfies. Great for leftovers.",
+    "category": "Dinner",
+    "prepTimeMinutes": 12,
+    "cookTimeMinutes": 30,
+    "servings": 3,
+    "difficulty": "medium",
+    "energyLevel": "medium",
+    "batchFriendly": true,
+    "vegetarian": true,
+    "highProtein": false,
+    "tags": ["pasta", "savoury", "leftovers", "comfort"],
+    "ingredientGroups": [
+      {
+        "name": "Pasta",
+        "ingredients": [
+          { "name": "Whole-grain pasta", "amount": 250, "unit": "g", "optional": false, "shoppingCategory": "Pantry" },
+          { "name": "Parmesan", "amount": null, "unit": "to serve", "optional": true, "shoppingCategory": "Dairy" }
+        ]
+      },
+      {
+        "name": "Sauce",
+        "ingredients": [
+          { "name": "Mushrooms", "amount": 300, "unit": "g", "note": "finely chopped", "optional": false, "shoppingCategory": "Produce" },
+          { "name": "Walnuts", "amount": 60, "unit": "g", "note": "chopped", "optional": false, "shoppingCategory": "Pantry" },
+          { "name": "Onion", "amount": 1, "unit": "", "note": "finely chopped", "optional": false, "shoppingCategory": "Produce" },
+          { "name": "Carrot", "amount": 1, "unit": "", "note": "finely chopped", "optional": false, "shoppingCategory": "Produce" },
+          { "name": "Garlic", "amount": 2, "unit": "cloves", "note": "minced", "optional": false, "shoppingCategory": "Produce" },
+          { "name": "Olive oil", "amount": 1, "unit": "tbsp", "optional": false, "shoppingCategory": "Pantry" },
+          { "name": "Tomato paste", "amount": 1, "unit": "tbsp", "optional": false, "shoppingCategory": "Pantry" },
+          { "name": "Tomato passata", "amount": 450, "unit": "g", "optional": false, "shoppingCategory": "Pantry" },
+          { "name": "Soy sauce or tamari", "amount": 1, "unit": "tbsp", "optional": false, "shoppingCategory": "Pantry" },
+          { "name": "Balsamic vinegar", "amount": 1, "unit": "tbsp", "optional": false, "shoppingCategory": "Pantry" },
+          { "name": "Italian herbs", "amount": 1, "unit": "tsp", "optional": false, "shoppingCategory": "Spices" },
+          { "name": "Spinach", "amount": null, "unit": "a handful", "optional": true, "shoppingCategory": "Produce" },
+          { "name": "Salt", "amount": null, "unit": "to taste", "optional": false, "shoppingCategory": "Spices" },
+          { "name": "Black pepper", "amount": null, "unit": "to taste", "optional": false, "shoppingCategory": "Spices" }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "title": "Start the sauce base",
+        "instruction": "Heat olive oil in a pan. Add onion and carrot with a pinch of salt and cook 5-8 minutes until softened.",
+        "durationMinutes": 7,
+        "ingredients": ["Olive oil", "Onion", "Carrot", "Salt"],
+        "tips": []
+      },
+      {
+        "title": "Brown the mushrooms",
+        "instruction": "Add mushrooms. Cook until they release their water and it mostly evaporates, then keep going until they darken and smell savoury.",
+        "durationMinutes": 8,
+        "ingredients": ["Mushrooms"],
+        "tips": ["This browning step is most of the flavour — be patient."]
+      },
+      {
+        "title": "Add garlic and tomato paste",
+        "instruction": "Add garlic and tomato paste and stir for 1-2 minutes until the paste darkens slightly.",
+        "durationMinutes": 2,
+        "ingredients": ["Garlic", "Tomato paste"],
+        "tips": ["Frying the tomato paste briefly makes it taste deeper and less raw."]
+      },
+      {
+        "title": "Simmer the sauce",
+        "instruction": "Add passata, soy sauce, balsamic, Italian herbs, walnuts, pepper and a little salt. Simmer 10-15 minutes.",
+        "durationMinutes": 12,
+        "ingredients": ["Tomato passata", "Soy sauce or tamari", "Balsamic vinegar", "Italian herbs", "Walnuts"],
+        "tips": ["Soy sauce isn't there to make it Asian — it adds savoury depth.", "Balsamic balances the tomato."]
+      },
+      {
+        "title": "Cook the pasta",
+        "instruction": "Boil the pasta in well-salted water. Save a mug of pasta water before draining.",
+        "durationMinutes": 10,
+        "ingredients": ["Whole-grain pasta"],
+        "tips": ["Salt the pasta water generously."]
+      },
+      {
+        "title": "Combine and finish",
+        "instruction": "Add pasta to the sauce with a splash of pasta water and stir until glossy. Stir in spinach at the end, and serve with parmesan if you like.",
+        "durationMinutes": 2,
+        "ingredients": ["Spinach", "Parmesan"],
+        "tips": ["Pasta water loosens and binds the sauce so it clings to the pasta."]
+      }
+    ],
+    "tasteFixes": [
+      { "problem": "Sauce tastes sharp", "fix": "Simmer it longer, or add a little olive oil." },
+      { "problem": "Tastes bland", "fix": "Add salt." },
+      { "problem": "Tastes thin", "fix": "Simmer uncovered for longer." }
+    ],
+    "easyUpgrades": [
+      "Stir lentils into the sauce.",
+      "Add chili flakes.",
+      "Use chickpea pasta for more protein.",
+      "Add a spoon of Greek yogurt or ricotta after serving."
+    ],
+    "batchNotes": "Excellent for leftovers — the sauce freezes well. Pasta is best fresh, but leftovers are still fine.",
+    "safetyNotes": [
+      "Cool leftovers quickly in shallow containers.",
+      "Eat within 3-4 days and reheat until hot all the way through."
+    ]
+  },
+  {
+    "id": "sweet-potato-chickpea-curry",
+    "name": "Sweet Potato Chickpea Curry",
+    "description": "The forgiving one-pot. Warm, cozy, and hard to fully ruin.",
+    "whyCookThis": "When you want something comforting with almost no technique. One pot, mostly pantry, and very hard to mess up.",
+    "category": "Dinner",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 30,
+    "servings": 3,
+    "difficulty": "easy",
+    "energyLevel": "low",
+    "batchFriendly": true,
+    "vegetarian": true,
+    "highProtein": false,
+    "tags": ["one-pot", "cozy", "freezer-friendly", "forgiving"],
+    "ingredientGroups": [
+      {
+        "name": "Pot",
+        "ingredients": [
+          { "name": "Sweet potato", "amount": 400, "unit": "g", "note": "peeled and diced", "optional": false, "shoppingCategory": "Produce" },
+          { "name": "Chickpeas", "amount": 1, "unit": "can", "note": "drained and rinsed", "optional": false, "shoppingCategory": "Pantry" },
+          { "name": "Onion", "amount": 1, "unit": "", "note": "chopped", "optional": false, "shoppingCategory": "Produce" },
+          { "name": "Garlic", "amount": 2, "unit": "cloves", "note": "minced", "optional": false, "shoppingCategory": "Produce" },
+          { "name": "Ginger", "amount": 1, "unit": "thumb-sized piece", "note": "minced", "optional": false, "shoppingCategory": "Produce" },
+          { "name": "Olive oil", "amount": 1, "unit": "tbsp", "optional": false, "shoppingCategory": "Pantry" },
+          { "name": "Light coconut milk or passata", "amount": 400, "unit": "ml", "optional": false, "shoppingCategory": "Pantry" },
+          { "name": "Water or vegetable stock", "amount": 150, "unit": "ml", "optional": false, "shoppingCategory": "Pantry" },
+          { "name": "Spinach or chopped cabbage", "amount": null, "unit": "2 handfuls", "optional": false, "shoppingCategory": "Produce" }
+        ]
+      },
+      {
+        "name": "Spice & finish",
+        "ingredients": [
+          { "name": "Curry powder", "amount": 2, "unit": "tbsp", "optional": false, "shoppingCategory": "Spices" },
+          { "name": "Cumin", "amount": 1, "unit": "tsp", "optional": false, "shoppingCategory": "Spices" },
+          { "name": "Turmeric", "amount": 0.5, "unit": "tsp", "optional": true, "shoppingCategory": "Spices" },
+          { "name": "Chili flakes", "amount": 0.5, "unit": "tsp", "optional": false, "shoppingCategory": "Spices" },
+          { "name": "Lime juice", "amount": 1, "unit": "tbsp", "optional": false, "shoppingCategory": "Produce" },
+          { "name": "Salt", "amount": null, "unit": "to taste", "optional": false, "shoppingCategory": "Spices" },
+          { "name": "Black pepper", "amount": null, "unit": "to taste", "optional": false, "shoppingCategory": "Spices" },
+          { "name": "Rice or quinoa", "amount": null, "unit": "to serve", "optional": true, "shoppingCategory": "Pantry" }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "title": "Cook the base",
+        "instruction": "Heat olive oil in a pot. Add onion and a pinch of salt and cook 5-8 minutes until soft.",
+        "durationMinutes": 7,
+        "ingredients": ["Olive oil", "Onion", "Salt"],
+        "tips": []
+      },
+      {
+        "title": "Add aromatics",
+        "instruction": "Add garlic and ginger and stir for 30-60 seconds.",
+        "durationMinutes": 1,
+        "ingredients": ["Garlic", "Ginger"],
+        "tips": []
+      },
+      {
+        "title": "Bloom the spices",
+        "instruction": "Add curry powder, cumin, turmeric and chili. Stir 30 seconds. If the pot looks dry, add a tiny splash of water.",
+        "durationMinutes": 1,
+        "ingredients": ["Curry powder", "Cumin", "Turmeric", "Chili flakes"],
+        "tips": ["Frying the spices briefly before the liquid goes in deepens the flavour."]
+      },
+      {
+        "title": "Simmer",
+        "instruction": "Add sweet potato, chickpeas, coconut milk or passata, and enough water or stock to almost cover. Simmer 20-25 minutes until the sweet potato is soft.",
+        "durationMinutes": 22,
+        "ingredients": ["Sweet potato", "Chickpeas", "Light coconut milk or passata", "Water or vegetable stock"],
+        "tips": ["Stir occasionally so nothing catches on the bottom."]
+      },
+      {
+        "title": "Add greens and finish",
+        "instruction": "Stir in spinach or cabbage until wilted and tender. Add lime juice, then taste and adjust the salt.",
+        "durationMinutes": 3,
+        "ingredients": ["Spinach or chopped cabbage", "Lime juice", "Salt"],
+        "tips": ["Salt matters a lot here — sweet potato tastes flat without enough of it.", "Add the lime at the end."]
+      }
+    ],
+    "tasteFixes": [
+      { "problem": "Too sweet", "fix": "Add lime and chili." },
+      { "problem": "Too thin", "fix": "Simmer uncovered for 5-10 minutes." },
+      { "problem": "Too intense", "fix": "Add a spoon of yogurt after serving." }
+    ],
+    "easyUpgrades": [
+      "Add chicken.",
+      "Stir in red lentils.",
+      "Add peanut butter for a richer curry.",
+      "Finish with coriander.",
+      "Top with roasted cashews."
+    ],
+    "batchNotes": "Good for 3-4 days and freezes well. Store rice separately.",
+    "safetyNotes": [
+      "Cool leftovers quickly in shallow containers.",
+      "Eat within 3-4 days and reheat until hot all the way through."
+    ]
+  },
+  {
+    "id": "nutty-berry-protein-bowl",
+    "name": "Nutty Berry Protein Bowl",
+    "description": "The no-cook backup for mornings, evenings, or low-energy days.",
+    "whyCookThis": "For days when cooking is not happening. Three minutes, no heat, genuinely filling and high in protein.",
+    "category": "Breakfast",
+    "prepTimeMinutes": 3,
+    "cookTimeMinutes": 0,
+    "servings": 1,
+    "difficulty": "easy",
+    "energyLevel": "low",
+    "batchFriendly": false,
+    "vegetarian": true,
+    "highProtein": true,
+    "tags": ["no-cook", "3-minute", "high-protein", "breakfast"],
+    "ingredientGroups": [
+      {
+        "name": "Bowl",
+        "ingredients": [
+          { "name": "Greek yogurt or soy yogurt", "amount": 250, "unit": "g", "optional": false, "shoppingCategory": "Dairy" },
+          { "name": "Frozen berries", "amount": 125, "unit": "g", "optional": false, "shoppingCategory": "Frozen" },
+          { "name": "Walnuts or almonds", "amount": 25, "unit": "g", "optional": false, "shoppingCategory": "Pantry" },
+          { "name": "Chia seeds or ground flaxseed", "amount": 1, "unit": "tbsp", "optional": false, "shoppingCategory": "Pantry" },
+          { "name": "Cacao powder", "amount": 1, "unit": "tsp", "optional": false, "shoppingCategory": "Pantry" },
+          { "name": "Oats", "amount": 40, "unit": "g", "optional": true, "shoppingCategory": "Pantry" },
+          { "name": "Protein powder", "amount": null, "unit": "optional", "optional": true, "shoppingCategory": "Pantry" },
+          { "name": "Cinnamon", "amount": null, "unit": "a pinch", "optional": true, "shoppingCategory": "Spices" },
+          { "name": "Honey or banana", "amount": null, "unit": "to taste", "optional": true, "shoppingCategory": "Pantry" }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "title": "Add the yogurt",
+        "instruction": "Spoon the yogurt into a bowl.",
+        "durationMinutes": null,
+        "ingredients": ["Greek yogurt or soy yogurt"],
+        "tips": []
+      },
+      {
+        "title": "Add the berries",
+        "instruction": "Scatter the frozen berries on top; they'll thaw into the yogurt.",
+        "durationMinutes": null,
+        "ingredients": ["Frozen berries"],
+        "tips": ["Use enough berries — they carry the flavour."]
+      },
+      {
+        "title": "Top and mix",
+        "instruction": "Add nuts, chia or flax, cacao, and optional oats or protein. Mix, and let it sit 5 minutes if you want the chia or oats to soften.",
+        "durationMinutes": null,
+        "ingredients": ["Walnuts or almonds", "Chia seeds or ground flaxseed", "Cacao powder", "Oats", "Protein powder", "Cinnamon"],
+        "tips": ["Cinnamon or cacao makes it taste like more of a treat."]
+      }
+    ],
+    "tasteFixes": [
+      { "problem": "Too sour", "fix": "Add banana or a small amount of honey." },
+      { "problem": "Not filling enough", "fix": "Add oats or more nuts." },
+      { "problem": "Need more protein", "fix": "Add protein powder, or use Greek yogurt." }
+    ],
+    "easyUpgrades": [
+      "Add a scoop of protein powder.",
+      "Stir in oats the night before for an overnight version.",
+      "Add a spoon of nut butter.",
+      "Top with extra cacao nibs."
+    ],
+    "batchNotes": "Best fresh, but you can pre-mix dry toppings into small jars for the week.",
+    "safetyNotes": [
+      "Keep yogurt refrigerated; don't leave the bowl out more than 2 hours."
+    ]
+  }
+]
