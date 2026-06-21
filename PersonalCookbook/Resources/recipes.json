@@ -136,11 +136,9 @@
           { "name": "Smoked paprika", "amount": 1, "unit": "tsp", "optional": false, "shoppingCategory": "Spices" },
           { "name": "Chili flakes", "amount": 0.5, "unit": "tsp", "optional": false, "shoppingCategory": "Spices" },
           { "name": "Apple cider vinegar", "amount": 1, "unit": "tbsp", "optional": false, "shoppingCategory": "Pantry" },
-          { "name": "Walnuts", "amount": 1, "unit": "tbsp", "note": "per serving", "optional": false, "shoppingCategory": "Pantry" },
+          { "name": "Walnuts", "amount": 30, "unit": "g", "optional": false, "shoppingCategory": "Pantry" },
           { "name": "Salt", "amount": null, "unit": "to taste", "optional": false, "shoppingCategory": "Spices" },
-          { "name": "Black pepper", "amount": null, "unit": "to taste", "optional": false, "shoppingCategory": "Spices" },
-          { "name": "Cooked rice", "amount": null, "unit": "to serve", "note": "100-150 g per serving", "optional": true, "shoppingCategory": "Pantry" },
-          { "name": "Greek yogurt", "amount": null, "unit": "to serve", "optional": true, "shoppingCategory": "Dairy" }
+          { "name": "Black pepper", "amount": null, "unit": "to taste", "optional": false, "shoppingCategory": "Spices" }
         ]
       }
     ],
@@ -177,7 +175,7 @@
         "title": "Combine and finish",
         "instruction": "Mix lentils, mushrooms and veg. Add the vinegar. Serve with olive oil, walnuts, and rice if you want it more filling.",
         "durationMinutes": null,
-        "ingredients": ["Apple cider vinegar", "Walnuts", "Cooked rice"],
+        "ingredients": ["Apple cider vinegar", "Walnuts"],
         "tips": ["Don't skip the vinegar — it's what makes it taste alive."]
       }
     ],
@@ -219,7 +217,7 @@
         "name": "Pasta",
         "ingredients": [
           { "name": "Whole-grain pasta", "amount": 250, "unit": "g", "optional": false, "shoppingCategory": "Pantry" },
-          { "name": "Parmesan", "amount": null, "unit": "to serve", "optional": true, "shoppingCategory": "Dairy" }
+          { "name": "Parmesan", "amount": 30, "unit": "g", "optional": true, "shoppingCategory": "Dairy" }
         ]
       },
       {
@@ -236,7 +234,7 @@
           { "name": "Soy sauce", "amount": 1, "unit": "tbsp", "optional": false, "shoppingCategory": "Pantry" },
           { "name": "Balsamic vinegar", "amount": 1, "unit": "tbsp", "optional": false, "shoppingCategory": "Pantry" },
           { "name": "Italian herbs", "amount": 1, "unit": "tsp", "optional": false, "shoppingCategory": "Spices" },
-          { "name": "Spinach", "amount": null, "unit": "a handful", "optional": true, "shoppingCategory": "Produce" },
+          { "name": "Spinach", "amount": 50, "unit": "g", "optional": true, "shoppingCategory": "Produce" },
           { "name": "Salt", "amount": null, "unit": "to taste", "optional": false, "shoppingCategory": "Spices" },
           { "name": "Black pepper", "amount": null, "unit": "to taste", "optional": false, "shoppingCategory": "Spices" }
         ]
@@ -330,7 +328,7 @@
           { "name": "Olive oil", "amount": 1, "unit": "tbsp", "optional": false, "shoppingCategory": "Pantry" },
           { "name": "Light coconut milk", "amount": 400, "unit": "ml", "optional": false, "shoppingCategory": "Pantry" },
           { "name": "Vegetable stock", "amount": 150, "unit": "ml", "optional": false, "shoppingCategory": "Pantry" },
-          { "name": "Spinach", "amount": null, "unit": "2 handfuls", "optional": false, "shoppingCategory": "Produce" }
+          { "name": "Spinach", "amount": 100, "unit": "g", "optional": false, "shoppingCategory": "Produce" }
         ]
       },
       {
@@ -342,8 +340,7 @@
           { "name": "Chili flakes", "amount": 0.5, "unit": "tsp", "optional": false, "shoppingCategory": "Spices" },
           { "name": "Lime juice", "amount": 1, "unit": "tbsp", "optional": false, "shoppingCategory": "Produce" },
           { "name": "Salt", "amount": null, "unit": "to taste", "optional": false, "shoppingCategory": "Spices" },
-          { "name": "Black pepper", "amount": null, "unit": "to taste", "optional": false, "shoppingCategory": "Spices" },
-          { "name": "Rice", "amount": null, "unit": "to serve", "optional": true, "shoppingCategory": "Pantry" }
+          { "name": "Black pepper", "amount": null, "unit": "to taste", "optional": false, "shoppingCategory": "Spices" }
         ]
       }
     ],
@@ -427,9 +424,9 @@
           { "name": "Chia seeds", "amount": 1, "unit": "tbsp", "optional": false, "shoppingCategory": "Pantry" },
           { "name": "Cacao powder", "amount": 1, "unit": "tsp", "optional": false, "shoppingCategory": "Pantry" },
           { "name": "Oats", "amount": 40, "unit": "g", "optional": true, "shoppingCategory": "Pantry" },
-          { "name": "Protein powder", "amount": null, "unit": "optional", "optional": true, "shoppingCategory": "Pantry" },
+          { "name": "Protein powder", "amount": 1, "unit": "scoop", "optional": true, "shoppingCategory": "Pantry" },
           { "name": "Cinnamon", "amount": null, "unit": "a pinch", "optional": true, "shoppingCategory": "Spices" },
-          { "name": "Honey", "amount": null, "unit": "to taste", "optional": true, "shoppingCategory": "Pantry" }
+          { "name": "Honey", "amount": 1, "unit": "tsp", "optional": true, "shoppingCategory": "Pantry" }
         ]
       }
     ],
