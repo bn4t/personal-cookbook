@@ -26,6 +26,8 @@ Modern Apple-style dark UI built on real **iOS 26 Liquid Glass** (`glassEffect`,
 
 Recipes live in a bundled [`recipes.json`](PersonalCookbook/Resources/recipes.json) and are decoded with `Codable`. No backend, no login, no network — the app works fully offline. Edit the JSON (or use the in-app debug screen) to add your own recipes.
 
+📄 **Full field-by-field reference: [`docs/RECIPE_FORMAT.md`](docs/RECIPE_FORMAT.md)** — types, defaults, enum values, scaling/shopping behaviour, and examples.
+
 ### Model
 
 ```
