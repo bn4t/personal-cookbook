@@ -429,7 +429,7 @@
           { "name": "Oats", "amount": 40, "unit": "g", "optional": true, "shoppingCategory": "Pantry" },
           { "name": "Protein powder", "amount": null, "unit": "optional", "optional": true, "shoppingCategory": "Pantry" },
           { "name": "Cinnamon", "amount": null, "unit": "a pinch", "optional": true, "shoppingCategory": "Spices" },
-          { "name": "Honey or banana", "amount": null, "unit": "to taste", "optional": true, "shoppingCategory": "Pantry" }
+          { "name": "Honey", "amount": null, "unit": "to taste", "optional": true, "shoppingCategory": "Pantry" }
         ]
       }
     ],
@@ -457,7 +457,7 @@
       }
     ],
     "tasteFixes": [
-      { "problem": "Too sour", "fix": "Add banana or a small amount of honey." },
+      { "problem": "Too sour", "fix": "Add a small amount of honey." },
       { "problem": "Not filling enough", "fix": "Add oats or more nuts." },
       { "problem": "Need more protein", "fix": "Add protein powder, or use Greek yogurt." }
     ],
